@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    color: #d9534f;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #5a5a5a;
+    font-size: 1.8em;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+/* Ingredients List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+/* Cooking Process Steps */
+ol {
+    text-align: left;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+ol li {
+    background: #fff;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-left: 5px solid #d9534f;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    img {
+        width: 100%;
+    }
+}
